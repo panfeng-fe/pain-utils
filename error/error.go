@@ -6,5 +6,3 @@ func PanicErr[T any](res T, err error) T {
 	}
 	return res
 }
-
-// func LogErr()
