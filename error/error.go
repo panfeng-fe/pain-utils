@@ -1,4 +1,4 @@
-package error
+package err
 
 func PanicErr[T any](res T, err error) T {
 	if err != nil {
